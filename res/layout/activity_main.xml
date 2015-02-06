@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nhncorp.student.sawonjungfinder.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/registrationBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:contentDescription="Registration Button"
+                android:src="@drawable/card_icon" >
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/questionBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:contentDescription="Question Button"
+                android:src="@drawable/question_icon" >
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/deviceNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="20sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/finderBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:contentDescription="Finder Button"
+            android:src="@drawable/finder_icon" >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/timeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="#00000000"
+            android:contentDescription="Time Button"
+            android:src="@drawable/time_black" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/devOnOffBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="#00000000"
+            android:contentDescription="Finder Button"
+            android:src="@drawable/power_black" >
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
